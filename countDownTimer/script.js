@@ -5,7 +5,7 @@ const minutEl= document.getElementById('minute');
 const secondEl= document.getElementById('second');
 
 
-const wishedDay = '01 May 2022';
+const wishedDay = '02 Bebruary 2023';
 
 function countDownTimer(){
 
