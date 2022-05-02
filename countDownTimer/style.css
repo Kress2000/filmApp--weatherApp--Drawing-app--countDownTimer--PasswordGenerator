@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background: url(alu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+.container{margin: auto;
+        border: 1px solid transparent;
+        position: absolute;
+        margin: 0 2% 3% 0;
+        width: 98.0vw;
+        height: 98.5vh;
+        padding: 2%;
+        box-shadow: 20px 20px 20px 20px rgba(9, 125, 240, 0.5) ;
+        }
+.container-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 92vh;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 10px rgb(124, 144, 150);
+    }
+.container-fluid{
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    padding-top: 5%;
+    flex-direction: column;
+    width: 93vw;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    height: 90vh;
+    box-shadow: 5vh 0px 10px 10px rgba(108, 192, 218, .7);
+}
+
+.fluid{
+    flex-shrink: 3;
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    justify-content: center;
+    box-shadow: 5vh 0px 10px 0 rgba(193, 229, 240, 0.7);
+    }
+
+.fluid .time{
+    margin-right: 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fluid h1{font-size: 4.5rem;
+        flex-shrink: 5;
+        color: black;
+        margin-right: 2rem;}
+
+.fluid .time span{font-weight: bolder;
+                margin-right: 2rem;
+                font-size: 1.5rem;}
+
+.container-wrapper h4{font-size: 1.5rem;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+                    box-shadow: 2px 2px 2px 2px rgba(232, 241, 232, 0.2);
+                    border: 1px  solid transparent;
+                    font-style: oblique;
+                    }
+.container-fluid > h2 {color: blue;
+                        font-style: italic;
+                    font-size: 3em;}
+
+ 
